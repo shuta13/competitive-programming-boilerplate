@@ -1,0 +1,7 @@
+version: '3'
+services:
+  abc:
+    build: .
+    volumes: 
+      - .:/abc
+    working_dir: /abc
